@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(226, 226, 226);
+    border-radius: 10px;
+}
+.card{
+    border: solid 10px; border-color: rgb(255, 68, 68);
+    width: 250px;
+    text-align: center;
+    
+}
+.img-card{
+    width: 100% ;
+}
+
+const titulos = [
+  "Pikachu",
+  "Bulbasaur",
+  "Charmander",
+  "Squirtle",
+  "Butterfree",
+  "Pidgeotto",
+  "Charizard",
+  "Kingler",
+  "Muk",
+  "Tauros"
+];
+
+const descricoes = [
+  "Pikachu é o parceiro fiel de Ash, um Pokémon elétrico teimoso no início, mas extremamente leal e poderoso durante toda a jornada na Liga Índigo.",
+  "Bulbasaur é calmo e responsável, frequentemente agindo como líder entre os Pokémon de Ash e demonstrando grande maturidade.",
+  "Charmander foi abandonado por seu antigo treinador e salvo por Ash, mostrando enorme confiança e carinho após ser resgatado.",
+  "Squirtle era líder do Esquadrão Squirtle, um grupo travesso que depois decide acompanhar Ash e usar suas habilidades para o bem.",
+  "Butterfree foi o primeiro Pokémon capturado por Ash e simboliza seu crescimento como treinador, sendo libertado em um momento emocionante.",
+  "Pidgeotto é um dos principais Pokémon voadores de Ash na temporada, usado frequentemente em batalhas e explorações aéreas.",
+  "Charizard evolui de Charmander e inicialmente se torna desobediente, ignorando Ash até aprender a respeitá-lo mais tarde.",
+  "Kingler parecia fraco como Krabby, mas surpreendeu ao evoluir durante uma batalha oficial da Liga Pokémon e vencer sozinho.",
+  "Muk é um Pokémon de odor extremamente forte capturado por Ash em uma usina elétrica, mas demonstra grande afeição por seu treinador.",
+  "Tauros faz parte do grupo capturado por Ash na Zona Safari, conhecido por sua força e energia em batalhas posteriores."
+];
+
+const imagens = [
+  "https://assets.pokemon.com/assets/cms2/img/pokedex/full/025.png",
+  "https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png",
+  "https://assets.pokemon.com/assets/cms2/img/pokedex/full/004.png",
+  "https://assets.pokemon.com/assets/cms2/img/pokedex/full/007.png",
+  "https://assets.pokemon.com/assets/cms2/img/pokedex/full/012.png",
+  "https://assets.pokemon.com/assets/cms2/img/pokedex/full/017.png",
+  "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
+  "https://assets.pokemon.com/assets/cms2/img/pokedex/full/099.png",
+  "https://assets.pokemon.com/assets/cms2/img/pokedex/full/089.png",
+  "https://assets.pokemon.com/assets/cms2/img/pokedex/full/128.png"
+];
+
