@@ -1,0 +1,27 @@
+/*Seleciona a div da classe container */
+.container {
+    background-color: blueviolet;
+    color:wheat;
+}
+
+/*Altera todos os p que estão dentro do container*/
+.container p{
+    color:plum;
+    font-style: italic;
+}
+
+/* Altera apenas os p que são filhos imediatos da div */
+.container > p {
+    border-bottom: 10px;
+}
+
+/* Altera o primeiro p que vem depois da Div*/
+.container + p{
+    color:pink;
+    font-style:oblique
+}
+
+.destaque {
+    padding: 200px;
+    
+}

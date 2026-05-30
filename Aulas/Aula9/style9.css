@@ -1,0 +1,10 @@
+.minha-classe {
+    color: rgb(0, 0, 0);                /* Muda a cor do texto */
+    font-size: 16px;            /* Define o tamanho da fonte */
+    background-color: #5f5f5f88; /* Muda a cor de fundo */
+    padding: 10px;              /* Adiciona espaçamento interno */
+    border: 1px solid rgb(213, 35, 35);    /* Adiciona borda */
+}
+.minha-imagem {
+    object-position: right;
+} 

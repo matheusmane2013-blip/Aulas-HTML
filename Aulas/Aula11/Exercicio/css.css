@@ -1,0 +1,62 @@
+/* Container principal (Órbita) */
+.alvo {
+    background-color: rgb(233, 233, 233);
+    height: 400px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    animation: moverZoio 1s infinite ease-in-out;
+}
+
+/* Globo Ocular (Círculo Vermelho) */
+.circulo-externo {
+    background-color: rgb(0, 0, 0);
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    /* Animação do globo ocular */
+    animation: moverGlobo 5s infinite ease-in-out;
+}
+
+/* Pupila (Círculo Aqua) */
+.circulo-interno {
+    background-color: aqua;
+    height: 60px; /* Reduzi um pouco para dar mais espaço de movimento */
+    width: 60px;
+    border-radius: 50%;
+    /* Animação da pupila (mais rápida) */
+    animation: moverPupila 1s infinite ease-in-out;
+}
+
+/* --- KEYFRAMES --- */
+
+/* Movimento do círculo vermelho dentro do azul */
+@keyframes moverGlobo {
+    0%, 100% { transform: translate(-20, 10); }
+    33% { transform: translate(40px, -30px); }
+    66% { transform: translate(-40px, -20px); }
+    88% { transform: translate(55px, 40px); }
+}
+
+/* Movimento da pupila dentro do vermelho */
+@keyframes moverPupila {
+    0%, 100% { transform: translate(35, 35); }
+    20% { transform: translate(30px, 30px); }
+    40% { transform: translate(-50px, -25px); }
+    60% { transform: translate(20px, -40px); }
+    80% { transform: translate(-10px, 40px); }
+}
+
+@keyframes moverZoio {
+    0%, 100% { transform: translate(0, 0); }
+    20% { transform: translate(60px, 30px); }
+    40% { transform: translate(100px, 25px); }
+    60% { transform: translate(40px, 40px); }
+    80% { transform: translate(60px, 60px); }
+}

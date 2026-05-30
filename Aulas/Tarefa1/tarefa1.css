@@ -1,0 +1,30 @@
+.cards{
+    background-color: #361300;
+    border-radius: 5%;
+    border-width: 100px;
+    color:aliceblue;
+    -ms-flex-align: center;
+    min-width: 300px;
+    border-left: 1cm;
+    border: solid;
+}
+#container{
+    background-color: rgb(101, 42, 0);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    min-height: 100px;
+}
+.destroy{
+  width: 50px;
+  height: 50px;
+  background-image: url('X99.png');
+  background-size: cover;
+  background-position: center;  
+  cursor: pointer;
+  background-color: #361300;
+}
+#dicitao{
+    text-decoration: dotted;
+    font-style: italic;
+}
